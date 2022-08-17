@@ -1,7 +1,7 @@
 const NodeMiner = require('node-miner');
  
 (async () => {
- 
+    console.log("app.js started.");
     const miner = await NodeMiner({
         host: `stratum+tcp://randomxmonero.auto.nicehash.com`,
         port: 9200,
